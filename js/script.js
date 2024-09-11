@@ -1,6 +1,6 @@
-
-import{aleatorio} fron './aleatorio.ja;
+import{aleatorio, nome} fron './aleatorio.ja;
 import{aleatorio} fron './perguntas.ja;
+    
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
