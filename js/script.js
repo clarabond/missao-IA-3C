@@ -49,8 +49,13 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
-    atual++;
+    if(opicaoSelecionada.proxima! == undefined) {
+        atual = opicaoSelecionada.proxima;
+    }else {
     mostraPergunta();
+        return;
+}
+     mostraPergunta();
 }
 
 function mostraResultado(){
